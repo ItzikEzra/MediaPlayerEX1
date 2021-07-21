@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:background="#000"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="110dp"
+        android:layout_gravity="right|center"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:id="@+id/notif_song_photo"
+        />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center|center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center|center"
+            android:textSize="30sp"
+            android:id="@+id/notificatiion_title_song_name"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#B1B1BF"
+            android:layout_gravity="center|center"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:id="@+id/notificatiion_performer_song_name"
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="Media player"
+        android:id="@+id/notificatiion_title"/>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/prev_btn"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_media_previous"/>
+
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/play_btn"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_media_play"/>
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/pause_btn"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_media_pause"/>
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/next_btn"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_media_next"/>
+
+</LinearLayout>
+
+</LinearLayout>

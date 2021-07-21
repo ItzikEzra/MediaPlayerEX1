@@ -1,6 +1,8 @@
 package com.itzik_ezra.mediaplayerex1;
 
-public class Song {
+import java.io.Serializable;
+
+public class Song  implements Serializable {
 
     String m_SongName;
     String m_SongPerformer;
